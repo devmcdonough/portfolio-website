@@ -1,0 +1,479 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+Colors used
+
+Text Color: (Dark Gray) #454545 
+Primary Color: (Dark Green) #357b70
+Secondary Color: (Light Green) #357b70
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #454545;
+}
+
+h1 {
+    font-size: 24px;
+    display: block;
+    line-height: 1.5;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #454545;
+    text-align: center;    
+}
+
+h2 {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #454545;
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #454545;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color: #357b70;
+    
+}
+
+a:hover {
+    /* No underlining when hovering over a link*/
+    text-decoration: none;
+    color: #409487;
+}
+
+a:focus {
+    /* No underlining when hovering over a link*/
+    text-decoration: none;
+    color: #409487;
+}
+
+a:visited {
+    color: #05676e;
+}
+
+a:active {
+    color: #489c79;
+}
+
+.button {
+    display: block;
+    background-color: #357b70;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button:hover {
+    background-color: #409487;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    -webkit-transition-duration: 0.2s;
+         -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.button:focus {
+    background-color: #409487;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    -webkit-transition-duration: 0.2s;
+         -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.about_text {
+    display: block;
+    text-align: center;
+    line-height: 1.4;
+}
+
+input[type=submit] {
+    background-color: #357b70;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #409487;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+input[type=submit]:focus {
+    background-color: #409487;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.button_secondary {
+    border-color: #357b70;
+    background-color: #f9f9f9;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #357b70;
+    cursor: pointer;
+}
+
+.button_secondary:hover {
+    border-color: #357b70;
+    background-color: #C5E5E1;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #409487;
+    cursor: pointer;
+}
+
+.button_secondary:focus {
+    border-color: #357b70;
+    background-color: #C5E5E1;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #409487;
+    cursor: pointer;
+}
+
+.illustration {
+    padding-bottom: 24px;
+    margin: auto;
+    max-width: 500px;
+}
+
+.standard-label {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #454545;
+}
+
+label {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #454545;
+}
+
+.navigation-list {
+    list-style-type: none;
+}
+
+.navigation-list li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.navigation-list__item navigation-list__item--active {
+    text-decoration: none;
+}
+
+.navigation-list__item {
+    text-decoration: underline;
+}
+
+.profile {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.profile_portrait {
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.input {
+    border-radius: 4px;
+    border: 1px solid #454545;
+}
+
+#contact-info {
+    margin: 8px 12px;
+    padding: 10px;
+}
+
+#contact-form {
+    padding: 8px 12px;
+    margin: 10px;
+}
+
+.page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.page-header__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 200px;
+            flex: 0 1 200px;
+}
+
+.page-header__item:last-child {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: right;
+}
+
+.page-footer {
+    clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+}
+
+@supports (display: grid) {
+.grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 32px 1fr 32px 1fr 32px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 300px 32px 300px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 32px;
+    margin: 32px;
+}
+.grid > *:nth-child(1) {
+        -ms-grid-rows: 1;
+        -ms-grid-columns: 1;
+}
+.grid > *:nth-child(2) {
+        -ms-grid-rows: 1;
+        -ms-grid-columns: 3;
+}
+.grid > *:nth-child(3) {
+        -ms-grid-rows: 1;
+        -ms-grid-columns: 5;
+}
+.grid > *:nth-child(4) {
+        -ms-grid-rows: 1;
+        -ms-grid-columns: 7;
+}
+.grid > *:nth-child(5) {
+        -ms-grid-rows: 3;
+        -ms-grid-columns: 1;
+}
+.grid > *:nth-child(6) {
+        -ms-grid-rows: 3;
+        -ms-grid-columns: 3;
+}
+.grid > *:nth-child(7) {
+        -ms-grid-rows: 3;
+        -ms-grid-columns: 5;
+}
+.grid > *:nth-child(8) {
+        -ms-grid-rows: 3;
+        -ms-grid-columns: 7;
+}
+
+.grid__item {
+    background-color: lightgray;
+    width: auto;
+    min-height: auto;
+    margin: 0%;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.grid__text {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.grid__item:hover {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
+@media all and (max-width: 600px) {
+    .grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+   @media all and (min-width: 600px) and (max-width: 750px) {
+    .grid {
+        -ms-grid-columns: 1fr 32px 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media all and (max-width: 750px) {
+.grid {
+    grid-gap: 10px;
+}
+}
+.grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+}
+h1 {
+    font-size: 22px;
+}
+}
+
+@-webkit-keyframes color-change {
+    0% {
+        fill: #edc655;
+      }
+      50% {
+        fill: #fcffad;
+      }
+      100% {
+        fill: #f76414;
+      }
+    }
+
+@keyframes color-change {
+    0% {
+        fill: #edc655;
+      }
+      50% {
+        fill: #fcffad;
+      }
+      100% {
+        fill: #f76414;
+      }
+    }
+
+.sun {
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-name: color-change;
+            animation-name: color-change;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+
+@-webkit-keyframes cloud-move {
+    from {
+        -webkit-transform: translate(0, 50px);
+                transform: translate(0, 50px);
+    }
+    to {
+        -webkit-transform: translate(200px, 50px);
+                transform: translate(200px, 50px);
+    }
+}
+
+@keyframes cloud-move {
+    from {
+        -webkit-transform: translate(0, 50px);
+                transform: translate(0, 50px);
+    }
+    to {
+        -webkit-transform: translate(200px, 50px);
+                transform: translate(200px, 50px);
+    }
+}
+
+.cloud-front {
+    -webkit-animation: 30s cloud-move infinite alternate linear;
+            animation: 30s cloud-move infinite alternate linear;
+}
+
+@-webkit-keyframes cloud-move-reverse {
+    from {
+        -webkit-transform: translate(446px, 48px);
+                transform: translate(446px, 48px);
+    }
+    to {
+        -webkit-transform: translate(100px, 48px);
+                transform: translate(100px, 48px);
+    }
+}
+
+@keyframes cloud-move-reverse {
+    from {
+        -webkit-transform: translate(446px, 48px);
+                transform: translate(446px, 48px);
+    }
+    to {
+        -webkit-transform: translate(100px, 48px);
+                transform: translate(100px, 48px);
+    }
+}
+
+.cloud-back {
+    -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
+            animation: 34s cloud-move-reverse infinite alternate linear;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="img/dog_icon.jpeg" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=IBM+Plex+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.production.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header class="page-header">
+        <img src="img/Logo_Name.svg" alt="Personal logo of Devlin McDonough, a 
+            text logo in uppercase letters that consists of my name" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="./index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="./about.html" role="menuitem" class="navigation-list__item">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="./contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="./work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>Contact</h1>
+        <div id="contact-info">
+            Phone:<a href="tel:+01 617 943 7177" aria-label="This is my phone number">617-943-7177</a><br>
+            Email:<a href="mailto:devmcdonough@gmail.com">Devmcdonough@gmail.com</a><br>
+            Skype:<a href="skype:devlin.mcdonough">I can't remember my Skype</a><br>
+            <a href="mailto:devmcdonough@gmail.com">Contact me</a>
+        </div>
+        <div>
+            <form action="" method="post" id="contact-form">
+                <label class="standard-label" for="contact-email">Email</label>
+                <br>
+                <input type="email" id="contact-email" class="input">
+                <br>
+
+                <label class="standard-label" for="contact-number">Phone</label>
+                <br>
+                <input type="tel" id="contact-number" pattern="\d{3}[\-]\d{3}[\-\d{4}" class="input">
+                <br>
+
+                <label class="standard-label" for="contact-message">Message</label>
+                <br>
+                <textarea required maxlength="240" id="contact-message" class="input"></textarea>
+                <br>
+
+                <input type="submit" value="Send Message">
+                <button class="button_secondary">Secondary Button</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="footer-images">
+            <img src="img/github_logo.svg" alt="Github">
+            <img src="img/twitter_icon.svg" alt="Twitter">
+            <img src="img/linkedin_icon.svg" alt="LinkedIn">
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
