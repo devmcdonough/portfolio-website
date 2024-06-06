@@ -24,16 +24,17 @@ body {
 }
 
 h1 {
-    font-size: 24px;
-    display: block;
+    font-size: 28px;
     line-height: 1.5;
     font-family: 'Chakra Petch', sans-serif;
     color: #454545;
-    text-align: center;    
+    text-align: center;
 }
 
 h2 {
     font-family: 'Chakra Petch', sans-serif;
+    margin-top: 12px;
+    font-size: 24px;
 }
 
 p {
@@ -148,6 +149,8 @@ input[type=submit] {
     border-radius: 8px;
     cursor: pointer;
     font-family: 'IBM Plex Sans', sans-serif;
+    max-width: 480px;
+    margin-top: 24px;
 }
 
 input[type=submit]:hover {
@@ -158,6 +161,8 @@ input[type=submit]:hover {
     border-radius: 8px;
     cursor: pointer;
     font-family: 'IBM Plex Sans', sans-serif;
+    max-width: 480px;
+    margin-top: 24px;
 }
 
 input[type=submit]:focus {
@@ -168,6 +173,8 @@ input[type=submit]:focus {
     border-radius: 8px;
     cursor: pointer;
     font-family: 'IBM Plex Sans', sans-serif;
+    max-width: 480px;
+    margin-top: 24px;
 }
 
 .button_secondary {
@@ -178,6 +185,7 @@ input[type=submit]:focus {
     font-family: 'IBM Plex Sans', sans-serif;
     color: #357b70;
     cursor: pointer;
+    max-width: 480px;
 }
 
 .button_secondary:hover {
@@ -188,6 +196,8 @@ input[type=submit]:focus {
     font-family: 'IBM Plex Sans', sans-serif;
     color: #409487;
     cursor: pointer;
+    max-width: 480px;
+
 }
 
 .button_secondary:focus {
@@ -200,6 +210,10 @@ input[type=submit]:focus {
     cursor: pointer;
 }
 
+textarea {
+    max-width: 480px;
+}
+
 .illustration {
     padding-bottom: 24px;
     margin: auto;
@@ -209,6 +223,8 @@ input[type=submit]:focus {
 .standard-label {
     font-family: 'IBM Plex Sans', sans-serif;
     color: #454545;
+    width: 100%;
+    margin-top: 12px;
 }
 
 label {
@@ -235,31 +251,63 @@ label {
 
 .profile {
     max-width: 700px;
-    margin: 0 auto;
+    align-items: left;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#profile_text {
+    vertical-align: middle;
 }
 
 .profile_portrait {
-    float: left;
     width: 250px;
     height: 250px;
     border-radius: 50%;
     margin-right: 40px;
+    vertical-align: middle;
 }
 
 .input {
     border-radius: 4px;
-    border: 1px solid #454545;
+    border: 2px solid #c4c4c4;
+    max-width: 480px;
+    width: 100%;
+    height: 36px;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 #contact-info {
     margin: 8px 12px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 480px;
+    flex-grow: 1;
+    width: 100%;
 }
 
 #contact-form {
     padding: 8px 12px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: 480px;
+    flex-grow: 1;
+    width: 100%;
+
 }
+
+
 
 .page-header {
     display: -webkit-box;
@@ -381,9 +429,6 @@ label {
 .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
-}
-h1 {
-    font-size: 22px;
 }
 }
 

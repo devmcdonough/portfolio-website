@@ -43,31 +43,27 @@
 
     <main>
         <h1>Contact</h1>
-        <div id="contact-info">
-            Phone:<a href="tel:+016179437177" aria-label="This is my phone number">617-943-7177</a><br>
-            Email:<a href="mailto:devmcdonough@gmail.com">Devmcdonough@gmail.com</a><br>
-            Skype:<a href="skype:devlin.mcdonough">I can't remember my Skype</a><br>
-            <a href="mailto:devmcdonough@gmail.com">Contact me</a>
-        </div>
-        <div>
+        <div class="contact-page">
+            <div id="contact-info">
+                <label class="standard-label">Phone</label>
+                <a href="tel:+016179437177" aria-label="This is my phone number">617-943-7177</a>
+                <label class="standard-label">Email</label>
+                <a href="mailto:devmcdonough@gmail.com">Devmcdonough@gmail.com</a>
+                <label class="standard-label">Skype</label>
+                <a href="skype:devlin.mcdonough">I can't remember my Skype</a>
+                <a href="mailto:devmcdonough@gmail.com">Contact me</a>
+            </div>
             <form action="https://www.example.com" method="post" id="contact-form">
                 <label class="standard-label" for="contact-email">Email</label>
-                <br>
                 <input type="email" id="contact-email" class="input">
-                <br>
 
                 <label class="standard-label" for="contact-number">Phone</label>
-                <br>
                 <input type="tel" id="contact-number" pattern="\d{3}[\-]\d{3}[\-\d{4}" class="input">
-                <br>
 
                 <label class="standard-label" for="contact-message">Message</label>
-                <br>
                 <textarea required maxlength="240" id="contact-message" class="input"></textarea>
-                <br>
 
                 <input type="submit" value="Send Message">
-                <button class="button_secondary">Secondary Button</button>
             </form>
         </div>
     </main>
