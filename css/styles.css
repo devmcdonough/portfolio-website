@@ -42,6 +42,10 @@ h2 {
     font-family: var(--font-chakra);
 }
 
+h3 {
+    font-family: var(--font-chakra);
+}
+
 p {
     font-size: var(--font-size-body);
     line-height: 1.4;
