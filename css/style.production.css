@@ -407,7 +407,6 @@ label {
     height: auto;
     display: block;
     max-height: 200px;
-    max-width: 140px;
     object-fit: cover;
     border-radius: 8px;
     overflow: hidden;
