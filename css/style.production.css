@@ -387,7 +387,7 @@ label {
 }
 
 .grid__item {
-    background-color: lightgray;
+    background-color: #f9f9f9;
     width: auto;
     min-height: auto;
     margin: 0%;
@@ -396,6 +396,12 @@ label {
     -o-transition: transform 0.2s ease;
     transition: transform 0.2s ease;
     transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.grid__image {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .grid__text {

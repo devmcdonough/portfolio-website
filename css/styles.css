@@ -267,6 +267,13 @@ label {
     transition: transform 0.2s ease;
 }
 
+
+.grid__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .grid__text {
     padding-left: 16px;
     padding-right: 16px;
