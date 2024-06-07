@@ -53,6 +53,7 @@ ul {
     list-style: none;
     padding-left: 0;
     font-family: 'Chakra Petch', sans-serif;
+    line-height: 1.6;
 }
 
 li {
@@ -60,6 +61,7 @@ li {
     color: #454545;
     font-size: 16px;
     list-style-type: none;
+    line-height: 1.6;
 }
 
 a {
@@ -312,7 +314,9 @@ label {
 
 }
 
-
+.bold-text {
+    font-weight: bold;
+}
 
 .page-header {
     display: -webkit-box;
