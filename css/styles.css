@@ -276,6 +276,15 @@ label {
     max-width: 140px;
     object-fit: cover;
     border-radius: 8px;
+    overflow: hidden;
+}
+
+.grid__image img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .grid__text {
