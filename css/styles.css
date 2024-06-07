@@ -377,3 +377,12 @@ h1 {
         padding: 0 10px;
     }
 }
+
+.grid__item-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.grid__item-link:hover .grid__item {
+    transform: scale(1.05);
+}
