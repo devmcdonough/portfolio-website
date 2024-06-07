@@ -390,7 +390,7 @@ label {
     background-color: #f9f9f9;
     width: auto;
     min-height: auto;
-    margin: 0%;
+    margin: 0;
     -webkit-transition: -webkit-transform 0.2s ease;
     transition: -webkit-transform 0.2s ease;
     -o-transition: transform 0.2s ease;
@@ -402,8 +402,9 @@ label {
     width: 100%;
     height: auto;
     display: block;
-    max-height: 200px;
+    max-height: 400px;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .grid__text {

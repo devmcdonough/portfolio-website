@@ -272,7 +272,7 @@ label {
     width: 100%;
     height: auto;
     display: block;
-    max-height: 200px;
+    max-height: 40px;
     object-fit: cover;
 }
 
