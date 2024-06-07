@@ -544,3 +544,15 @@ label {
     -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
             animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.text-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media (max-width: 750px) {
+    .content-container {
+        padding: 0 10px;
+    }
+}

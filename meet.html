@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/jpg" href="img/dog_icon.jpeg" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=IBM+Plex+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet App</title>
+</head>
+<body>
+    <header class="page-header">
+        <img src="img/Logo_Name.svg" alt="Personal logo of Devlin McDonough, a 
+                text logo in uppercase letters that consists of my name" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="./index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="./about.html" role="menuitem" class="navigation-list__item">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="./contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="./work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="text-container">
+        <section>
+            <h1>Meet App</h1>
+            <h3>Overview</h3>
+            <p>Meet is a serverless, progressive web application (PWA) built with React, 
+                utilizing the Google Calendar API to fetch and display upcoming events. 
+                Designed using a test-driven development (TDD) approach, Meet combines the 
+                scalability of serverless architecture with the rich, responsive user 
+                experience of a PWA.
+            </p>
+
+            <h3>Features</h3>
+            <ul>
+                Filter Events by City: Users can filter events based on the city.
+                Toggle Event Details: Show or hide additional details of events.
+                Customizable Event Display: Specify the number of events displayed on a page.
+                Offline Support: Access the app in offline or slow network conditions.
+                Home Screen Shortcut: Add shortcuts to the home screen for quick access.
+                Data Visualization: Includes charts to visualize event data, enhancing user interaction and understanding.
+            </ul>
+            <h3>Technical Requirements</h3>
+            <ul>
+                Framework: Built with React.
+                Development: Follows TDD methodology to ensure quality and functionality.
+                APIs: Integrates Google Calendar API with OAuth2 for secure authentication.
+                Serverless: Utilizes AWS Lambda for backend operations.
+                Compatibility: Supports all modern browsers and IE11.
+                Responsive Design: Ensures a seamless experience across all devices (1920px to 320px screen widths).
+                PWA: Meets all criteria in Lighthouse’s PWA checklist, including service worker implementation for offline usage.
+                Deployment: Hosted on GitHub Pages.
+                Monitoring: Uses online tools for performance monitoring.
+                Testing: Achieves over 90% test coverage. 
+            </ul>
+        </section>
+        </div>
+    </main>
+
+
+</body>
+</html>
