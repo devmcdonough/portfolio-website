@@ -351,6 +351,13 @@ label {
     text-align: center;
 }
 
+.footer-images img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin: 0 5px;
+}
+
 @supports (display: grid) {
 .grid {
     display: -ms-grid;
