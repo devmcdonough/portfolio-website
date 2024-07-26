@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/jpg" href="img/dog_icon.jpeg" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=IBM+Plex+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet App</title>
+</head>
+<body>
+    <header class="page-header">
+        <img src="img/Logo_Name.svg" alt="Personal logo of Devlin McDonough, a 
+                text logo in uppercase letters that consists of my name" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="./index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="./about.html" role="menuitem" class="navigation-list__item">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="./contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="./work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="text-container">
+        <section>
+            <h1>Chat App</h1>
+            <div class="grid__image">
+                <img src="img/chat_img.png" alt="Meet App Screenshot" >
+            </div>
+            <div>
+            <a href="https://github.com/devmcdonough/chat">View project on Github</a>
+            </div>
+            <div>
+            <a href="https://devmcdonough.github.io/pokedex/">View Project</a>
+            </div>
+            <h3>Overview</h3>
+            <p>
+                A chat app for mobile devices built using React Native. Provides users with the 
+                ability to chat and to share images and their location.
+            </p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>A page where users can enter their name and choose a background color for the chat screen before joining the chat.
+                </li>
+                <li>A page displaying the conversation, as well as an input field and submit button.</li>
+                <li>The chat must provide users with two additional communication features: sending images
+                    and location data.</li>
+                <li>Data gets stored online and offline.</li>
+     
+                
+            </ul>
+            <h3>Technical Requirements</h3>
+            <ul>
+                <li>The app must be written in React Native.</li>
+                <li>The app must be developed using Expo</li>
+                <li>The app must be styled according to the given screen design.</li>
+                <li>Chat conversations must be stored in Google Firestore Database.</li>
+                <li>The app must authenticate users anonymously via Google Firebase authentication.</li>
+                <li>Chat conversations must be stored locally.</li>
+                <li>The app must let users pick and send images from the phone’s image library.</li>
+                <li>The app must let users take pictures with the device’s camera app, and send them.</li>
+                <li>The app must store images in Firebase Cloud Storage.</li>
+                <li>The app must be able to read the user’s location data.</li>
+                <li>Location data must be sent via the chat in a map view.</li>
+                <li>The chat interface and functionality must be created using the Gifted Chat library.</li>
+                <li>The app’s codebase must contain comments.</li>
+             
+
+            </ul>
+        </section>
+        </div>
+    </main>
+
+
+</body>
+</html>

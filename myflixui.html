@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/jpg" href="img/dog_icon.jpeg" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=IBM+Plex+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet App</title>
+</head>
+<body>
+    <header class="page-header">
+        <img src="img/Logo_Name.svg" alt="Personal logo of Devlin McDonough, a 
+                text logo in uppercase letters that consists of my name" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="./index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="./about.html" role="menuitem" class="navigation-list__item">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="./contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="./work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="text-container">
+        <section>
+            <h1>MyFlix UI</h1>
+            <div class="grid__image">
+                <img src="img/myflixui_img.png" alt="myflix-ui Screenshot" >
+            </div>
+            <div>
+            <a href="https://github.com/devmcdonough/myflix-ui">View project on Github</a>
+            </div>
+            <div>
+            <a href="https://myflixcinematheque.netlify.app/login">View Project</a>
+            </div>
+            <h3>Overview</h3>
+            <p>
+                Client-side for myFlix built using React based on server-side code (REST API and database)
+            </p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>Returns ALL movies to the user (each movie item with an image, title, and description)</li>
+                <li>Filtering the list of movies with a “search” feature</li>
+                <li>Ability to select a movie for more details</li>
+                <li>Ability to log out</li>
+                <li>Ability to navigate to Profile view</li>
+                <li>Returns data (description, genre, director, image) about a single movie to the user</li>
+                <li>Allows users to add a movie to their list of favorites</li>
+                <li>Allows users to log in with a username and password</li>
+                <li>Allows new users to register (username, password, email, date of birth)</li>
+                <li>Displays user registration details</li>
+                <li>Allows users to update their info (username, password, email, date of birth)</li>
+                <li>Displays favorite movies</li>
+                <li>Allows users to remove a movie from their list of favorites</li>
+                <li>Allows existing users to deregister</li>
+
+
+            </ul>
+            <h3>Technical Requirements</h3>
+            <ul>
+                <li>The application must be a single-page application (SPA)</li>
+                <li>The application must use state routing to navigate between views and share URLs</li>
+                <li>The application must give users the option to filter movies using a “search” feature</li>
+                <li>The application must use Parcel as its build tool</li>
+                <li>The application must be written using the React library and in ES2015+</li>
+                <li>The application must use Bootstrap as a UI library for styling and responsiveness</li>
+                <li>The application must contain function components</li>
+                <li>The application must be hosted online</li>
+                <li>The application may use React Redux for state management of at least one feature (i.e.,
+                    filtering movies)</li>
+
+
+            </ul>
+        </section>
+        </div>
+    </main>
+
+
+</body>
+</html>
